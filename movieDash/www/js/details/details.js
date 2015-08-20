@@ -43,7 +43,6 @@ angular.module('moviedash.details', [])
 
   $scope.closeTrailer = function() {
     $scope.$modalInstance.close('');
-
   };
 
   $scope.reminder = function(movie) {
